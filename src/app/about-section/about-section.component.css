@@ -1,0 +1,47 @@
+.fab {
+  font-size: 35px;
+}
+
+#aboutme {
+  color: #03254c;
+}
+
+#bodytext {
+  color: #03254c;
+}
+
+#toolbox {
+  border-bottom: 2px solid #ecebf3;
+}
+
+/* MEDIA QUERIES */
+
+/* iPad Pro- */
+@media only screen and (max-width: 1040px) and (orientation: portrait) {
+  #aboutme {
+    font-size: 55px;
+  }
+  .fab {
+    font-size: 25px;
+  }
+}
+
+/* iPad - */
+@media only screen and (max-width: 770px) and (orientation: portrait) {
+  #aboutme {
+    font-size: 55px;
+  }
+  .fab {
+    font-size: 25px;
+  }
+}
+
+/* MOBILE SCREEN - Pixel 2 */
+@media only screen and (max-width: 411px) and (orientation: portrait) {
+  #aboutme {
+    font-size: 40px;
+  }
+  .fab {
+    font-size: 25px;
+  }
+}
