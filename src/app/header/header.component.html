@@ -1,0 +1,48 @@
+<nav
+  class="navbar navbar-expand-sm navbar-dark fixed-top"
+  id="main-nav"
+  data-aos="fade-in"
+  data-aos-anchor="#about"
+  data-aos-anchor-placement="top-top"
+>
+  <div id="navcontainer" class="container">
+    <a href="#home" class="navbar-brand"><strong>IVAN OKHRIMOVICH</strong></a>
+    <button
+      id="togglebutton"
+      class="navbar-toggler"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
+          <a href="#about" id="navbutton" class="nav-link">ABOUT&nbsp;ME</a>
+        </li>
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
+          <a href="#portfolio" id="navbutton" class="nav-link">PROJECTS</a>
+        </li>
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
+          <a href="#contact" id="navbutton" class="nav-link">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  $("body").scrollspy({ target: "#main-nav" });
+</script>
