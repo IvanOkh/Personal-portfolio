@@ -123,6 +123,11 @@
   transition: all 0.2s;
   pointer-events: auto;
   cursor: pointer;
+  min-width: 333px;
+  max-height: 360px;
+
+  /* min-width: 80%;
+  min-height: 80%; */
 }
 
 #javaproject {
@@ -132,6 +137,8 @@
   background-position: center bottom;
   transition: all 0.2s;
   cursor: pointer;
+  min-width: 333px;
+  max-height: 360px;
 }
 
 .centered {
