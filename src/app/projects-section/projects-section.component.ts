@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 
-declare var Rellax: any;
+// declare var Rellax: any;
 
 @Component({
   selector: "app-projects-section",

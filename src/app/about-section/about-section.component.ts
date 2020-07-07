@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-declare var Rellax: any;
+// declare var Rellax: any;
 @Component({
   selector: "app-about-section",
   templateUrl: "./about-section.component.html",
