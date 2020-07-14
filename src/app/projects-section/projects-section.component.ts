@@ -10,8 +10,8 @@ import { Component, OnInit } from "@angular/core";
 export class ProjectsSectionComponent implements OnInit {
   constructor() {}
 
-  seeContent: boolean = false;
-  seeJavaContent: boolean = false;
+  seeContent: boolean = true;
+  seeJavaContent: boolean = true;
 
   ngOnInit() {
     // var rellax = new Rellax(".rellax");
