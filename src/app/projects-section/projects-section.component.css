@@ -1,6 +1,5 @@
 #cutone {
   background: url(../../assets/astronaut3.jpg);
-  /* min-height: 250px; */
   background-repeat: no-repeat;
   background-attachment: fixed;
 
@@ -8,41 +7,12 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* min-height: 35vh; This is original. Testing is below*/
   height: 35vh;
 }
-
-/* #cutone:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100vw;
-  min-height: 100vh;
-  z-index: -10;
-  background: url(../../assets/astronaut3.jpg) no-repeat cover fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
 
 #projects {
   color: #03254c;
 }
-
-/* @media only screen and (max-width: 1600px) {
-  #cutone {
-    background: url(../../assets/astronaut3.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-} */
 
 #heading {
   color: #03254c;
@@ -64,24 +34,7 @@
     font-size: 55px;
   }
   #cutone {
-    /* background: url(../../assets/astronaut3.jpg) center center;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-    /* height: -webkit-fill-available; This is original. Testing is below*/
     height: 0vh;
-
-    /* TESTING NEW STUFF */
-    /* transition: height 1000000s ease;
-    -webkit-transition: height 1000000s ease;
-    -moz-transition: height 1000000s ease;
-    -o-transition: height 1000000s ease; */
-    /* transition: width 1000000s ease;
-    -webkit-transition: width 1000000s ease;
-    -moz-transition: width 1000000s ease;
-    -o-transition: width 1000000s ease; */
   }
 }
 
@@ -119,7 +72,6 @@
 #angularproject {
   /* transition: all 0.2s ease-in-out; */
   /* transition: transform 1s ease-in-out; */
-  /* background-image: linear-gradient(dodgerblue, dodgerblue); */
   background-image: linear-gradient(#cd0d2e, #cd0d2e);
   background-size: 0 5px, auto;
   background-repeat: no-repeat;
@@ -129,9 +81,6 @@
   cursor: pointer;
   min-width: 333px;
   max-height: 360px;
-
-  /* min-width: 80%;
-  min-height: 80%; */
 }
 
 #javaproject {
