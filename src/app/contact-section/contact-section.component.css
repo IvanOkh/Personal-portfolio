@@ -1,15 +1,9 @@
 #cuttwo {
   background: url(../../assets/astronaut4.jpg);
-  /* min-height: 250px; */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* min-height: -webkit-fill-available; */
-
-  /* min-height: 35vh; This is original. Testing is below*/
   height: 35vh;
-
-  /* width: 100%; */
 }
 
 #contact-heading {
@@ -28,13 +22,6 @@
     font-size: 55px;
   }
   #cuttwo {
-    /* ATTENTION - DELETE "FIXED" BELOW */
-    /* background: url(../../assets/astronaut4.jpg) center center fixed; */
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: -webkit-fill-available; */
-    /* min-height: -webkit-fill-available; */
     height: 0vh;
   }
 }

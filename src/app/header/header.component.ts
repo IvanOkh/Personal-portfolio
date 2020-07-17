@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { ViewportScroller } from "@angular/common";
 // declare var Rellax: any;
 @Component({
   selector: "app-header",
@@ -6,9 +7,16 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./header.component.css"],
 })
 export class HeaderComponent implements OnInit {
-  constructor() {}
+  act1: string = "";
+  act2: string = "";
+  act3: string = "";
+  constructor(private vps: ViewportScroller) {}
 
   ngOnInit() {
     // var rellax = new Rellax(".rellax");
+  }
+
+  scroll(el) {
+    this.vps.scrollToAnchor(el);
   }
 }

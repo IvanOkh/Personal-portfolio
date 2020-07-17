@@ -6,7 +6,9 @@
   data-aos-anchor-placement="top-top"
 >
   <div id="navcontainer" class="container">
-    <a href="#home" class="navbar-brand"><strong>IVAN OKHRIMOVICH</strong></a>
+    <a (click)="scroll('home')" role="button" class="navbar-brand"
+      ><strong>IVAN OKHRIMOVICH</strong></a
+    >
     <button
       id="togglebutton"
       class="navbar-toggler collapsed position-relative"
@@ -16,7 +18,6 @@
       <span> </span>
       <span> </span>
       <span> </span>
-      <!-- <span class="navbar-toggler-icon"></span> -->
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
@@ -25,27 +26,50 @@
           data-toggle="collapse"
           data-target=".navbar-collapse.show"
         >
-          <a href="#about" id="navbutton" class="nav-link">ABOUT&nbsp;ME</a>
+          <a
+            role="button"
+            (click)="scroll('about')"
+            data-target="#about"
+            id="navbutton"
+            class="nav-link"
+            >ABOUT&nbsp;ME</a
+          >
         </li>
         <li
-          class="nav-item"
+          class="nav-item {{ act2 }}"
           data-toggle="collapse"
           data-target=".navbar-collapse.show"
         >
-          <a href="#portfolio" id="navbutton" class="nav-link">PROJECTS</a>
+          <a
+            role="button"
+            (click)="scroll('portfolio')"
+            data-target="#portfolio"
+            id="navbutton"
+            class="nav-link"
+            >PROJECTS</a
+          >
         </li>
         <li
-          class="nav-item"
+          class="nav-item {{ act3 }}"
           data-toggle="collapse"
           data-target=".navbar-collapse.show"
         >
-          <a href="#contact" id="navbutton" class="nav-link">CONTACT</a>
+          <a
+            role="button"
+            (click)="scroll('contact')"
+            data-target="#contact"
+            id="navbutton"
+            class="nav-link"
+            >CONTACT</a
+          >
         </li>
       </ul>
     </div>
   </div>
 </nav>
-
-<script>
-  $("body").scrollspy({ target: "#main-nav" });
-</script>
+<div
+  id="content"
+  data-spy="scroll"
+  data-target="#main-nav"
+  style="overflow: auto;"
+></div>
