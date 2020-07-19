@@ -6,12 +6,15 @@
   data-aos-anchor-placement="top-top"
 >
   <div id="navcontainer" class="container">
-    <a (click)="scroll('home')" role="button" class="navbar-brand"
-      ><strong>IVAN OKHRIMOVICH</strong></a
+    <a
+      (click)="scroll('home')"
+      role="button"
+      class="ml-2 rounded-circle navbar-brand"
+      ><strong class="">IVAN OKHRIMOVICH</strong></a
     >
     <button
       id="togglebutton"
-      class="navbar-toggler collapsed position-relative"
+      class="navbar-toggler ml-auto collapsed position-relative"
       data-toggle="collapse"
       data-target="#navbarCollapse"
     >
@@ -20,7 +23,7 @@
       <span> </span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav pb-md-0 ml-2 ml-md-auto">
         <li
           class="nav-item"
           data-toggle="collapse"
@@ -31,7 +34,7 @@
             (click)="scroll('about')"
             data-target="#about"
             id="navbutton"
-            class="nav-link"
+            class="mt-2 mt-md-0 rounded-circle nav-link"
             >ABOUT&nbsp;ME</a
           >
         </li>
@@ -45,7 +48,7 @@
             (click)="scroll('portfolio')"
             data-target="#portfolio"
             id="navbutton"
-            class="nav-link"
+            class="mt-2 mt-md-0 rounded-circle nav-link"
             >PROJECTS</a
           >
         </li>
@@ -59,7 +62,7 @@
             (click)="scroll('contact')"
             data-target="#contact"
             id="navbutton"
-            class="nav-link"
+            class="mt-2 mt-md-0 rounded-circle nav-link"
             >CONTACT</a
           >
         </li>

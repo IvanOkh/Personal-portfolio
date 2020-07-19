@@ -39,7 +39,7 @@
 
 .navbar-brand {
   background-image: linear-gradient(white, white);
-  background-size: 0 1px, auto;
+  background-size: 0 2px, auto;
   background-repeat: no-repeat;
   background-position: center bottom;
   transition: all 0.15s;
@@ -54,7 +54,12 @@
   .active {
     background-size: 0%;
   }
+
+  .nav-link:hover {
+    background-size: 20% 1px, auto;
+  }
 }
+
 #togglebutton:focus {
   outline: none;
 }
