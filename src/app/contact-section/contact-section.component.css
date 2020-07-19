@@ -83,33 +83,39 @@
 #fb {
   color: #4267b2;
   transition: all 0.5s;
-  background-color: white;
+  
 }
 
 #md {
   color: #000000;
   transition: all 0.5s;
-  background-color: white;
+  border-top-right-radius:  18px 6px;
+  border-top-left-radius: 18px 6px;
+  border-bottom-right-radius: 17px 6px;
+  border-bottom-left-radius: 17px 6px;
+  overflow: hidden;
 }
+
+
 
 #gg {
   color: #d44638;
   transition: all 0.5s;
-  background-color: white;
+
 }
 
 #gh {
   border-radius: 80%;
   color: #6e5494;
   transition: all 0.5s;
-  background-color: white;
+
 }
 
 #ln {
   border-radius: 80%;
   color: #0e76a8;
   transition: all 0.5s;
-  background-color: white;
+
 }
 
 @media (max-width: 497px) {
