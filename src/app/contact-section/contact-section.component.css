@@ -38,12 +38,18 @@
   #contact-heading {
     font-size: 55px;
   }
+  .decreased-padding {
+    padding-top: 0em !important;
+  }
 }
 
 /* MOBILE SCREEN - Pixel 2 */
 @media only screen and (max-width: 411px) and (orientation: portrait) {
   #contact-heading {
     font-size: 40px;
+  }
+  .decreased-padding {
+    padding-top: 0em !important;
   }
 }
 
@@ -139,4 +145,8 @@
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+.list-group {
+  color: #03254c !important;
 }

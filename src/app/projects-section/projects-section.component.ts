@@ -13,6 +13,14 @@ export class ProjectsSectionComponent implements OnInit {
   seeContent: boolean = true;
   seeJavaContent: boolean = true;
 
+  public ffUrl: string = 'https://www.gofullframe.com';
+
+  public catUrl: string = 'https://www.youtube.com/watch?v=V7eP7YQRTRU';
+
+  public carsUrl: string = 'https://carsvolunteerapp.com';
+
+  public evaultUrl: string = 'https://evaultinventory.com';
+
   ngOnInit() {
     // var rellax = new Rellax(".rellax");
   }
@@ -35,5 +43,21 @@ export class ProjectsSectionComponent implements OnInit {
     } else {
       this.seeJavaContent = false;
     }
+  }
+
+  public openFF() {
+    window.open(this.ffUrl, '_blank');
+  }
+
+  public openCAT() {
+    window.open(this.catUrl, '_blank');
+  }
+
+  public openCARS() {
+    window.open(this.carsUrl, '_blank');
+  }
+
+  public openEVAULT() {
+    window.open(this.evaultUrl, '_black');
   }
 }

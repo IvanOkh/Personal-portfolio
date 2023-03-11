@@ -34,6 +34,9 @@
   .fab {
     font-size: 25px;
   }
+  .decreased-padding {
+    padding-bottom: 0em !important;
+  }
 }
 
 /* MOBILE SCREEN - Pixel 2 */
@@ -43,5 +46,8 @@
   }
   .fab {
     font-size: 25px;
+  }
+  .decreased-padding {
+    padding-bottom: 0em !important;
   }
 }

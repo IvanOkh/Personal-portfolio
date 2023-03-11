@@ -1,6 +1,6 @@
 <div id="cutone"></div>
 
-<section id="portfolio" class="bg-light text-muted py-5">
+<section id="portfolio" class="bg-light text-muted py-5 decreased-padding">
   <div class="container">
     <div id="title" class="row justify-content-center">
       <div
@@ -14,6 +14,198 @@
       </div>
     </div>
 
+    <!-- RFV -->
+    <div class="row justify-content-center mt-5">
+      <div
+        data-aos="fade-up-right"
+        id="project"
+        class="col-sm-10 col-md-8 col-lg-5 my-2"
+      >
+        <h2 id="heading" class="pb-2">
+          Cat® Remote Fleet Vision 2.0
+        </h2>
+
+        <h4 id="bodytext" class="text-justify">
+          Cat® Remote Fleet Vision (RFV) is a robust suite of services designed to optimize performance and minimize costly downtime. It’s a single source portal for performance data and insights so you can maximize the life and health of your assets. Cat RFV provides valuable information at your fingertips through satellite, cellular and more. 
+        </h4>
+        <h4 id="bodytext" class="text-justify">
+          Designed, developed and deployed using Angular, TypeScript, C#, .NET, SQL, NgRx, RxJS,
+          HTML, Sass, CSS, Involve, CDK, Flex, Azure DevOps and Docker.
+        </h4>
+      </div>
+
+      <div
+        data-aos="fade-up-left"
+        class="row justify-content-center img-hover-zoom col-sm-10 col-md-8 col-lg-5 mb-5 mx-1"
+      >
+        <img
+          src="../../assets/cat.jfif"
+          alt="Cateprillar logo"
+          id="catproject"
+          class="img-fluid w-75 shadow rounded min-height contain black-background"
+          (click)="openCAT()"
+        />
+
+        <div
+          *ngIf="seeContent"
+          id="newprojectset"
+          data-aos="fade-in"
+          data-aos-once="true"
+          class="aos-init"
+          data-aos-easing="linear"
+        >
+          <a
+            id="catprojectbutton"
+            class="rounded-pill btn shadow"
+            role="button"
+            target="blank"
+            length="6"
+            href="https://caterpillar.com"
+            >Client</a
+          >
+          <a
+            id="catprojectbutton"
+            class="rounded-pill btn shadow"
+            role="button"
+            target="blank"
+            href="https://remotefleetvision.com"
+            >Live</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      data-aos="fade-in"
+      class="aos-init row justify-content-center my-4"
+      data-aos-once="true"
+      data-aos-easing="linear"
+      *ngIf="seeContent"
+    >
+      <div class="desc col-sm-10">
+        <div>
+          <h4>
+            <p id="bodytext" class="text-justify pr-lg-5">
+              Remote Fleet Vision provides the customized data you need to identify and resolve problems quickly. Locate, track, manage and understand the status of all your assets – no matter where they are located or what brands you operate. Whether your goal is to improve efficiency, reduce risk, cut costs, or boost your bottom line, Cat Remote Fleet Vision Provides:
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item">Reduced downtime and peace of mind as you manage equipment health</li>
+              <li class="list-group-item">Timely, reliable data to help you make fast decisions from any location globally</li>
+              <li class="list-group-item">The ability to monitor asset location, operational status, maintenance needs and more</li>
+              <li class="list-group-item">User-defined thresholds that enables you to receive custom alerts based on your fleet or workflow</li>
+              <li class="list-group-item">The information you need to leverage field and historic data to pinpoint specific issues and enhance your decision making</li>
+              <li class="list-group-item">In combination with the engine’s Product Link technology, Cat Remote Fleet Vision provides a comprehensive view of the condition and status of your engine, whether it’s Cat or any other
+              </li>
+            </ul>
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <div id="splitline" class="row justify-content-center top-margin pt-4">
+      <div class="col-sm-10 col-lg-6 mr-md-3 mr-lg-5">
+        <hr />
+      </div>
+    </div>
+
+    <!-- FullFrame -->
+    <div class="row justify-content-center mt-5">
+      <div
+        data-aos="fade-up-right"
+        id="project"
+        class="col-sm-10 col-md-8 col-lg-5 my-2"
+      >
+        <h2 id="heading" class="pb-2">
+          FullFrame
+        </h2>
+
+        <h4 id="bodytext" class="text-justify">
+          FullFrame is the ultimate software solution for real estate photographers. This web application can help to scale up your real estate photography business with our advanced software.
+          You can seamlessly manage your staff, client relationships, pricing packages and more.
+        </h4>
+        <h4 id="bodytext" class="text-justify">
+          Designed, developed and deployed using Angular, TypeScript, Node.js, Express, MongoDB, NgRx, RxJS,
+          HTML, Sass, CSS, Angular Material, CDK, Flex, Gitlab, Azure DevOps, Docker, Kubernetes.
+        </h4>
+      </div>
+
+      <div
+        data-aos="fade-up-left"
+        class="row justify-content-center img-hover-zoom col-sm-10 col-md-8 col-lg-5 mb-5 mx-1"
+      >
+        <img
+          src="../../assets/FullFrameLogo.svg"
+          alt="FullFrame logo"
+          id="javaproject"
+          class="img-fluid w-75 shadow rounded side-padding min-height"
+          (click)="openFF()"
+        />
+
+        <div
+          *ngIf="seeContent"
+          id="newprojectset"
+          data-aos="fade-in"
+          data-aos-once="true"
+          class="aos-init"
+          data-aos-easing="linear"
+        >
+          <a
+            id="javaprojectbutton"
+            class="rounded-pill btn shadow"
+            role="button"
+            target="blank"
+            length="6"
+            href="https://www.gofullframe.com/About"
+            >Client</a
+          >
+          <a
+            id="javaprojectbutton"
+            class="rounded-pill btn shadow"
+            role="button"
+            target="blank"
+            href="https://signup.v2.gofullframe.com/"
+            >Live</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- <div
+      data-aos="fade-in"
+      class="aos-init row justify-content-center my-4"
+      data-aos-once="true"
+      data-aos-easing="linear"
+      *ngIf="seeContent"
+    >
+      <div class="desc col-sm-10">
+        <div>
+          <h4>
+            <p id="bodytext" class="text-justify pr-lg-5">
+              The ultimate goal of this project is to facilitate the
+              organization’s resource management and maximize its capacity to
+              rescue as many animals as possible. The app to aid general and
+              specific administrative tasks, this app also enables CARS staff to
+              easily navigate through the database of rescued animals, current
+              and potential volunteer workers & foster families, and the
+              facility’s vacancy, as well as its capacity. Moreover, we are also
+              working on the CARS’ website as a part of this project; once this
+              project is complete, anyone will be able to see the rescued
+              animals on the website and complete the application for adoption
+              on-line. Both the app and website can be accessed from a computer
+              or mobile device.
+            </p>
+          </h4>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="splitline" class="row justify-content-center top-margin pt-4">
+      <div class="col-sm-10 col-lg-6 mr-md-3 mr-lg-5">
+        <hr />
+      </div>
+    </div>
+
+    <!-- CARS -->
     <div class="row justify-content-center mt-5">
       <div
         data-aos="fade-up-right"
@@ -41,23 +233,24 @@
         data-aos="fade-up-left"
         class="row justify-content-center img-hover-zoom col-sm-10 col-md-8 col-lg-5 mb-5 mx-1"
       >
+          <!-- #target
+          (click)="!seeContent ? scroll(target) : false; turn()" -->
         <img
-          #target
-          (click)="!seeContent ? scroll(target) : false; turn()"
           src="../../assets/cars-logo.png"
           alt="CARS logo"
           id="angularproject"
           class="img-fluid w-75 shadow rounded"
+          (click)="openCARS()"
         />
 
-        <h5 id="bodytext" class="centered rounded p-1">
+        <!-- <h5 id="bodytext" class="centered rounded p-1 ">
           <a data-aos="fade-in" data-aos-once="true" *ngIf="!seeContent">
             Explore</a
           >
           <a data-aos="fade-in" data-aos-once="true" *ngIf="seeContent">
             Hide Details</a
           >
-        </h5>
+        </h5> -->
 
         <div
           *ngIf="seeContent"
@@ -67,14 +260,14 @@
           class="aos-init"
           data-aos-easing="linear"
         >
-          <a
+          <!-- <a
             id="projectbutton"
             class="rounded-pill btn shadow"
             role="button"
             target="blank"
             href="http://www.goptech.ca"
             >Live</a
-          >
+          > -->
           <a
             id="projectbutton"
             class="rounded-pill btn shadow"
@@ -84,14 +277,14 @@
             href="https://calgaryanimalrescue.com"
             >Client</a
           >
-          <a
+          <!-- <a
             id="projectbutton"
             class="rounded-pill btn shadow"
             role="button"
             target="blank"
             href="https://github.com/IvanOkh/Volunteer-Management-System-Frontend"
             >Code</a
-          >
+          > -->
         </div>
       </div>
     </div>
@@ -114,11 +307,10 @@
               easily navigate through the database of rescued animals, current
               and potential volunteer workers & foster families, and the
               facility’s vacancy, as well as its capacity. Moreover, we are also
-              working on the CARS’ website as a part of this project; once this
-              project is complete, anyone will be able to see the rescued
+              working on the CARS’ website as a part of this project. Once the system is operational, anyone will be able to see the rescued
               animals on the website and complete the application for adoption
-              on-line. Both the app and website can be accessed from a computer
-              or mobile device.
+              on-line. Both the app and website can be accessed from a desktop computer
+              or a mobile device.
             </p>
           </h4>
         </div>
@@ -131,6 +323,7 @@
       </div>
     </div>
 
+    <!-- Tracker -->
     <div class="row justify-content-center mt-5">
       <div
         data-aos="fade-up-right"
@@ -138,44 +331,47 @@
         class="col-sm-10 my-2 col-lg-5"
       >
         <h2 id="heading" class="pb-2">
-          Inventory Tracker
+          E-Vault Inventory Tracker
         </h2>
 
         <h4 id="bodytext" class="text-justify">
-          This Inventory Tracker app is a software that anyone can use to help
+          The E-Vault Inventory Tracker app is a software that anyone can use to help
           track personal items in the home, office, or at a self-storage
           facility. It stores user data on a server and can be accessed from any
-          newer desktop or mobile internet browser. This app will feature
+          device. This app features
           user-friendly interface, online registration, password protection, and
           two-factor authentication support.
         </h4>
+        <!-- newer desktop or mobile internet browser.  -->
         <h4 id="bodytext" class="text-justify">
-          Designed and developed using HTML5, CSS3, Java, and SQL.
+          Designed and developed using Angular, TypeScript, NgRx, RxJS, .NET, C#, SQL, HTML, CSS, Bootstrap and
+          Git.
         </h4>
       </div>
       <div
         data-aos="fade-up-left"
         class="row justify-content-center img-hover-zoom col-sm-10 col-md-8 col-lg-5 mx-1 mb-5"
       >
+        <!-- #javatarget
+        (click)="!seeJavaContent ? scroll(javatarget) : false; turnjava()" -->
         <img
-          #javatarget
-          (click)="!seeJavaContent ? scroll(javatarget) : false; turnjava()"
           src="../../assets/ims.png"
           alt="Inventory Tracker Logo"
           id="javaproject"
           class="img-fluid w-75 shadow rounded"
+          (click)="openEVAULT()"
         />
 
-        <h5 id="bodytext" class="centered rounded p-1">
+        <!-- <h5 id="bodytext" class="centered rounded p-1">
           <a data-aos="fade-in" data-aos-once="true" *ngIf="!seeJavaContent">
             Explore</a
           >
           <a data-aos="fade-in" data-aos-once="true" *ngIf="seeJavaContent">
             Hide Details</a
           >
-        </h5>
+        </h5> -->
 
-        <div
+        <!-- <div
           *ngIf="seeJavaContent"
           id="projectset"
           data-aos="fade-in"
@@ -191,7 +387,7 @@
             href="https://github.com/IvanOkh/Inventory-Tracker"
             >Code</a
           >
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -207,9 +403,8 @@
           <h4>
             <p id="bodytext" class="text-justify pr-lg-5">
               The purpose of the system is to make it easier and more efficient
-              than ever before to access stored items. The application will be
-              accessible from desktop and mobile devices. The app release is
-              scheduled for August 2020.
+              than ever before to access stored items. The application is
+              accessible from desktop and mobile devices.
             </p>
           </h4>
         </div>
